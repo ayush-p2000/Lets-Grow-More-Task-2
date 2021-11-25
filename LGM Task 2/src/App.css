@@ -4,7 +4,7 @@
     padding: 0%;
 }
 body{
-background-image: url("i28.jpg");
+background-image: url("bgpic.jpg");
 background-size: cover ; 
 background-repeat: no-repeat;
 
@@ -16,16 +16,27 @@ background-repeat: no-repeat;
     padding: 20px;
     padding-top: 20px;
   }
+  nav{
+    background-color: #595D61;
+    height: 70px;
+    width: 100%;
+    border: coral;
+    border-radius: 30px;
+  }
   h1 {
     float: left;
     padding: 10px;
     color: #ECCE19;
-    cursor:pointer;
     border-radius: 15px;
+    margin-top: 12px;
+    margin-left: 40px;
+    font-size: 25px;
   }
   .btn {
+    margin-top: 12px;
+    margin-right: 40px;
     float: right;
-    padding: 15px;
+    padding: 13px;
     background-color:#2296EE;
     cursor: pointer;
     border-radius: 10px;
@@ -81,5 +92,4 @@ background-repeat: no-repeat;
   }
   .card:hover .card-text{
     color: blue;
-
   }
