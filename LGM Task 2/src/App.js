@@ -13,10 +13,12 @@ function App() {
       <>
       
       <header className="main">
-        <h1>LetsGrowMore TASK 2</h1>
-        <div className="btn" onClick={getUsers}>
-          GET USERS
-        </div>
+        <nav>
+        <h1>LGMVIP - Web TASK 2</h1>
+          <div className="btn" onClick={getUsers}>
+            GET USERS
+          </div>
+        </nav>
       </header>
       <div className="row">
         {users?.map((current, index) => {
